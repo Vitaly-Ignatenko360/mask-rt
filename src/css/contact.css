@@ -11,18 +11,16 @@
   font-size: 30px;
   color: #9cbc68;
   margin-bottom: 10px; }
-
-.block-content p,
-.block-content a {
-  font-size: 16px;
-  margin-bottom: 5px;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease; }
-
-.block-content a:hover {
-  color: #9cbc68;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease; }
+  .block-content i p,
+  .block-content i a {
+    font-size: 16px;
+    margin-bottom: 5px;
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease; }
+  .block-content i a:hover {
+    color: #9cbc68;
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease; }
 
 .block-input,
 .block-text {
@@ -142,18 +140,18 @@ button {
     right: 0;
     -webkit-transform: rotate(-50deg);
     transform: rotate(-50deg); }
-  .close:before {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 25px;
-    right: 0;
-    -webkit-transition: 500ms ease;
-    transition: 500ms ease;
-    background-color: #fff;
-    top: calc(50% - 1px);
-    -webkit-transform: rotate(100deg);
-    transform: rotate(100deg); }
+    .close span:before {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 25px;
+      right: 0;
+      -webkit-transition: 500ms ease;
+      transition: 500ms ease;
+      background-color: #fff;
+      top: calc(50% - 1px);
+      -webkit-transform: rotate(100deg);
+      transform: rotate(100deg); }
 
 .close:hover span {
   -webkit-transition: 500ms ease;
