@@ -612,6 +612,9 @@ header,
   padding-right: 10px; }
   .about-text__descr p {
     margin-bottom: 10px; }
+  .about-text__descr span {
+    color: #9cbc68;
+    font-weight: 600; }
 
 .about-foto {
   width: 30%; }
