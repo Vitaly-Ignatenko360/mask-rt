@@ -3,140 +3,139 @@
 // font-family: 'Raleway', sans-serif
 // font-family: 'Libre Baskerville', serif   
 html, body
-   margin: 0
-   background: #1e1e1f
-   color: #e0e0e0
-   font-size: 15px
-   font-weight: 500
-   font-family: 'Raleway', sans-serif
+  margin: 0
+  background: #1e1e1f
+  color: #e0e0e0
+  font-size: 15px
+  font-weight: 500
+  font-family: 'Raleway', sans-serif
 
 h1,h2,h3,h4,h5,h6,li,ul,i,p
-   padding: 0
-   margin: 0
+  padding: 0
+  margin: 0
 li,ul
-   list-style: none
+  list-style: none
 div,span
-   box-sizing: border-box
+  box-sizing: border-box
 a
-   text-decoration: none
-   color: #e0e0e0
+  text-decoration: none
+  color: #e0e0e0
 
 [class^="icon-"]:before, [class*=" icon-"]:before 
-   margin: 0
+  margin: 0
 .active
-   color: #9cbc68!important
+  color: #9cbc68!important
 .container
-   max-width: 1100px
-   margin: 0 auto
-   z-index: 10
-   position: relative
-//Helpers
+  max-width: 1100px
+  margin: 0 auto
+  z-index: 10
+  position: relative
+  //Helpers
 .df
-   display: flex
+  display: flex
 
 .db
-   display: block
+  display: block
 
 .dn
-   display: none
+  display: none
 
 .justify-center
-   justify-content: center
+  justify-content: center
 .justify-around
-   justify-content: space-around
+  justify-content: space-around
 .justify-between
-   justify-content: space-between
+  justify-content: space-between
 .justify-evenly
-   justify-content: space-evenly
+  justify-content: space-evenly
 .align-center
-   align-items: center
+  align-items: center
 .flex-column
-   flex-direction: column
+  flex-direction: column
 .flex-wrap
-   flex-wrap: wrap
+  flex-wrap: wrap
 .align-end
-   align-items: end
+  align-items: end
 .align-flex__end
-   align-items: flex-end
-
-//Header
+  align-items: flex-end
+  //Header
 body
 section,footer
-   margin-left: 80px
+  margin-left: 80px
 header,
 #header
-   height: 100px
-   position: relative
+  height: 100px
+  position: relative
 #header:hover menu
-   background: #000
+  background: #000
 .burger
-   position: fixed
-   right: 0
-   top: 60px
-   max-width: 400px
-   width: 100%
-   bottom: 0
-   box-shadow: -3px 0px 5px rgb(30, 30, 31)
-   background: rgba(30, 30, 31, 0.9)
-   z-index: 99
-   & ul
-      display: flex
-      flex-direction: column
-      align-items: center
-      justify-content: center
-      height: 100%
-      margin-top: -60px
-      text-align: center
-      & li
-         margin: 15px
-         & a
-            color: #9cbc68
-            font-size: 20px
-            padding: 5px 20px
-            transition: 200ms ease
+  position: fixed
+  right: 0
+  top: 60px
+  max-width: 400px
+  width: 100%
+  bottom: 0
+  box-shadow: -3px 0px 5px rgb(30, 30, 31)
+  background: rgba(30, 30, 31, 0.9)
+  z-index: 99
+  & ul
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    height: 100%
+    margin-top: -60px
+    text-align: center
+    & li
+      margin: 15px
+      & a
+        color: #9cbc68
+        font-size: 20px
+        padding: 5px 20px
+        transition: 200ms ease
 .burger .active
-   transition: 200ms ease
-   border: 1px solid #9cbc68
-   box-shadow: 0px 0px 10px #9cbc68
+  transition: 200ms ease
+  border: 1px solid #9cbc68
+  box-shadow: 0px 0px 10px #9cbc68
 .mob-menu
-   position: fixed
-   width: 100%
-   height: 60px
-   box-shadow: 0px 3px 5px rgb(30, 30, 31)
-   background: rgba(30, 30, 31, 0.9)
-   z-index: 199
-   display: none
-   &__block
-      height: 100%
-      display: flex
-      align-items: flex-end
-      justify-content: center
-      flex-direction: column
-      & .box-menu
-         padding: 5px
-         border: 1px solid #9cbc68
-         margin: 10px
-         box-shadow: 0px 0px 5px #9cbc68
-         transition: 500ms ease
-         & .menu-line span,
-         & .menu-one span,
-         & .menu-two span
-            &:nth-child(1)
-               height: 3px
-               width: 8px
-               display: block
-               background-color: #fff
-               margin: 3px 2px
-               transform-origin: center
-               transition: 500ms ease
-            &:nth-child(2)
-               height: 3px
-               width: 16px
-               display: block
-               margin: 3px 2px
-               background-color: #fff
-               transform-origin: center
-               transition: 500ms ease
+  position: fixed
+  width: 100%
+  height: 60px
+  box-shadow: 0px 3px 5px rgb(30, 30, 31)
+  background: rgba(30, 30, 31, 0.9)
+  z-index: 199
+  display: none
+  &__block
+    height: 100%
+    display: flex
+    align-items: flex-end
+    justify-content: center
+    flex-direction: column
+    & .box-menu
+      padding: 5px
+      border: 1px solid #9cbc68
+      margin: 10px
+      box-shadow: 0px 0px 5px #9cbc68
+      transition: 500ms ease
+      & .menu-line span,
+      & .menu-one span,
+      & .menu-two span
+        &:nth-child(1)
+          height: 3px
+          width: 8px
+          display: block
+          background-color: #fff
+          margin: 3px 2px
+          transform-origin: center
+          transition: 500ms ease
+          &:nth-child(2)
+            height: 3px
+            width: 16px
+            display: block
+            margin: 3px 2px
+            background-color: #fff
+            transform-origin: center
+            transition: 500ms ease
 // .activ span
 //    animation-name: menu
 //    animation-duration: 1s 
@@ -151,107 +150,111 @@ header,
 .mob-menu .mob-activ .menu-one span:nth-child(2),
 .mob-menu .mob-activ .menu-two span:nth-child(1),
 .mob-menu .mob-activ .menu-two span:nth-child(2)
-   margin: 3px 0px
-   transition: 500ms ease
+  margin: 3px 0px
+  transition: 500ms ease
 .mob-menu .mob-activ .menu-one span:nth-child(1),
 .mob-menu .mob-activ .menu-one span:nth-child(2)
-   width: 0px
-   transition: 500ms ease
+  width: 0px
+  transition: 500ms ease
 .mob-menu .mob-activ   .menu-two ,
 .mob-menu .mob-activ   .menu-two
-   transition: 500ms ease
-   margin-top: -9px
+  transition: 500ms ease
+  margin-top: -9px
 .mob-menu .mob-activ .menu-line ,
 .mob-menu .mob-activ .menu-line
-   transition: 500ms ease
-   margin-bottom: -9px
+  transition: 500ms ease
+  margin-bottom: -9px
 
 .mob-menu .mob-activ  .menu-line
-   transition: 500ms ease
-   transform: rotate(45deg)
+  transition: 500ms ease
+  transform: rotate(45deg)
 .mob-menu .mob-activ
-   transition: 500ms ease
-   padding: 9px 2px
+  transition: 500ms ease
+  padding: 9px 2px
 .mob-menu .mob-activ  .menu-two
-   transition: 500ms ease
-   transform: rotate(-45deg)
+  transition: 500ms ease
+  transform: rotate(-45deg)
 .mob-menu .mob-activ  .menu-two,
 .mob-menu .mob-activ  .menu-line
-   transition: 500ms ease
+  transition: 500ms ease
 .menu
-   width: 100%
-   display: flex
-   padding: 0 50px
-   justify-content: space-between
-   // max-width: 80px
-   position: fixed
-   top: 0
-   left: 0
-   height: 80px
-   border: 0
-   border-radius: 0
-   text-align: center
-   z-index: 998
-   background: rgba(30,30,31,0.85)
+  width: 100%
+  display: flex
+  padding: 0 50px
+  justify-content: space-between
+  // max-width: 80px
+  position: fixed
+  top: 0
+  left: 0
+  height: 80px
+  border: 0
+  border-radius: 0
+  text-align: center
+  z-index: 998
+  background: #1e1e1f52
 .menu__text
-   display: flex
-   align-items: center
+  display: flex
+  align-items: center
+  color: #fff
+  font-weight: 700
+  text-shadow: 0px 4px 5px rgba(0, 68, 69, 0.8)
+
 .logo
-   margin: 30px 0px 70px 0
-   font-size: 50px
-   & i
-      color: #9cbc68
-      filter: drop-shadow(0 0 10px #9cbc68)
+  margin: 30px 0px 70px 0
+  font-size: 50px
+  & i
+    color: #9cbc68
+    filter: drop-shadow(0 0 10px #9cbc68)
 .menu-icon
-   display: flex
-   align-items: center
-   ul
-      display: flex
-      justify-content: flex-end
+  display: flex
+  align-items: center
+  ul
+    display: flex
+    justify-content: flex-end
 .header__tel
-   margin-right: 40px
-   &:hover
-      color: rgb(156, 188, 104)
-   // & li,
-   // & li a
-   //    margin: 30px 0
-   //    font-size: 30px
-   //    color: #686a6b
-   //    position: relative
-   //    &:hover
-   //       color: #9cbc68
-   //       transition: 500ms ease
-   //    &:hover .hover-block
-   //       opacity: 1
-   //       left: 70px
-   //       transition: 500ms ease
+  margin-right: 40px
+  &:hover
+    color: rgb(156, 188, 104)
+  // & li,
+  // & li a
+  //    margin: 30px 0
+  //    font-size: 30px
+  //    color: #686a6b
+  //    position: relative
+  //    &:hover
+  //       color: #9cbc68
+  //       transition: 500ms ease
+  //    &:hover .hover-block
+  //       opacity: 1
+  //       left: 70px
+  //       transition: 500ms ease
 
 .hover-block
-   position: absolute
-   left: -100px
-   top: 3px
-   opacity: 0
-   transition: 500ms ease
-   background-color: #9cbc68
-   border-radius: 3px
-   & p
-      color: #000000
-      padding: 5px 15px
-      font-size: 16px
+  position: absolute
+  left: -100px
+  top: 3px
+  opacity: 0
+  transition: 500ms ease
+  background-color: #9cbc68
+  border-radius: 3px
+  & p
+    color: #000000
+    padding: 5px 15px
+    font-size: 16px
 
 .header-text
-   height: 100px
-   opacity: 0
+  height: 100px
+  opacity: 0
 .header-text h1
-   color: #f1f1f1
-   font-size: 40px
-   position: absolute
-   top: 35%
-   animation: h1-anim 1.5s ease
+  color: #f1f1f1
+  font-size: 40px
+  position: absolute
+  top: 35%
+  animation: h1-anim 1.5s ease
 .element
-   color: #f1f1f1
-   font-size: 25px
-   font-family: 'Libre Baskerville', serif
+  color: #f1f1f1
+  font-size: 25px
+  font-family: 'Libre Baskerville', serif
 // .up
 //    background: url(../img/arrow.svg) center no-repeat
 //    position: absolute
@@ -262,54 +265,55 @@ header,
 //    left: 50%
 //    animation: up 3s infinite ease
 .parallax
-   position: fixed
-   left: 15px
+  position: fixed
+  left: 15px
 .shadow
-   position: fixed
-   content: ''
-   z-index: 999
-   background: rgba(0,0,0,0.7)
-   width: 100%
-   height: 100vh
+  position: fixed
+  content: ''
+  z-index: 999
+  background: rgba(0,0,0,0.7)
+  width: 100%
+  height: 100vh
 .wrap
-   transition: 500ms ease
-   z-index: 1
-   &:before
-      background: url(../img/fon.jpeg) center center no-repeat
-      background-size: cover
-      position: fixed
-      content: ''
-      bottom: 0
-      top: 0
-      left: 0
-      right: 0
-      z-index: 1
-   // &::after
-   //    position: fixed
-   //    content: ''
-   //    top: 0px
-   //    left: 0px
-   //    bottom: 0px
-   //    right: 0px
-   //    background: rgba(0,0,0,.5)
-   //    z-index: 2
+  transition: 500ms ease
+  z-index: 1
+  &:before
+    // background: url(../img/fon.jpeg) center center no-repeat
+    background: url(../img/qwe123.jpg) center center no-repeat
+    background-size: cover
+    position: fixed
+    content: ''
+    bottom: 0
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1
+  // &::after
+  //    position: fixed
+  //    content: ''
+  //    top: 0px
+  //    left: 0px
+  //    bottom: 0px
+  //    right: 0px
+  //    background: rgba(0,0,0,.5)
+  //    z-index: 2
 #blur
 .blur
-   filter: blur(20px)
-   height: fill-available
-   transition: 500ms ease
-   &:before
-      position: fixed
-      content: ''
-      top: 0
-      bottom: 0
-      left: 0
-      right: 0
-      background: rgba(0,0,0,.1)
-      z-index: 80
+  filter: blur(20px)
+  height: fill-available
+  transition: 500ms ease
+  &:before
+    position: fixed
+    content: ''
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background: rgba(0,0,0,.1)
+    z-index: 80
 #portfolio #loadMore,
 #about .loadMore
-   display: none
-   padding: 10px 30px
-   width: 80px
-   margin: 15px auto
+  display: none
+  padding: 10px 30px
+  width: 80px
+  margin: 15px auto

@@ -287,18 +287,18 @@ header,
         transform-origin: center;
         -webkit-transition: 500ms ease;
         transition: 500ms ease; }
-      .mob-menu__block .box-menu .menu-line span:nth-child(2),
-      .mob-menu__block .box-menu .menu-one span:nth-child(2),
-      .mob-menu__block .box-menu .menu-two span:nth-child(2) {
-        height: 3px;
-        width: 16px;
-        display: block;
-        margin: 3px 2px;
-        background-color: #fff;
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        -webkit-transition: 500ms ease;
-        transition: 500ms ease; }
+        .mob-menu__block .box-menu .menu-line span:nth-child(1):nth-child(2),
+        .mob-menu__block .box-menu .menu-one span:nth-child(1):nth-child(2),
+        .mob-menu__block .box-menu .menu-two span:nth-child(1):nth-child(2) {
+          height: 3px;
+          width: 16px;
+          display: block;
+          margin: 3px 2px;
+          background-color: #fff;
+          -webkit-transform-origin: center;
+          transform-origin: center;
+          -webkit-transition: 500ms ease;
+          transition: 500ms ease; }
 
 .mob-menu .mob-activ .menu-line span:nth-child(1),
 .mob-menu .mob-activ .menu-line span:nth-child(2),
@@ -367,7 +367,7 @@ header,
   border-radius: 0;
   text-align: center;
   z-index: 998;
-  background: rgba(30, 30, 31, 0.85); }
+  background: #1e1e1f52; }
 
 .menu__text {
   display: -webkit-box;
@@ -375,7 +375,10 @@ header,
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0px 4px 5px rgba(0, 68, 69, 0.8); }
 
 .logo {
   margin: 30px 0px 70px 0;
@@ -453,7 +456,7 @@ header,
   transition: 500ms ease;
   z-index: 1; }
   .wrap:before {
-    background: url(../img/fon.jpeg) center center no-repeat;
+    background: url(../img/qwe123.jpg) center center no-repeat;
     background-size: cover;
     position: fixed;
     content: '';
@@ -494,7 +497,7 @@ header,
 .content {
   margin-top: 40px;
   padding: 50px;
-  background: rgba(0, 0, 0, 0.5); }
+  background: #1e1e1f52; }
 
 .portfolio-text h2 {
   margin-bottom: 10px;
@@ -597,7 +600,8 @@ header,
 .skills-title {
   margin-bottom: 20px;
   font-size: 22px;
-  line-height: 28px; }
+  line-height: 28px;
+  max-width: 500px; }
 
 .about-text__query {
   font-size: 18px;
@@ -667,6 +671,21 @@ header,
   margin-bottom: 10px; }
   .block-title span {
     color: #9cbc68; }
+
+.about-foto {
+  margin-top: -100px; }
+
+.about-title {
+  margin-top: 30px; }
+
+.about-text__descr p {
+  margin-bottom: 20px; }
+
+.content {
+  margin-top: 0; }
+
+#contacts {
+  margin-top: -50px; }
 
 #contacts {
   margin-bottom: 100px; }
