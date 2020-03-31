@@ -482,13 +482,44 @@ header,
   margin-top: 0; }
 
 #contacts {
-  margin-top: -50px; }
+  margin-top: -70px; }
+
+#form button {
+  color: #fff; }
+
+footer {
+  padding-bottom: 30px;
+  margin-top: -70px; }
+  footer .content {
+    padding: 30px; }
+
+.footer-text .logo {
+  margin: 0;
+  margin-right: 10px; }
+
+.footer-text span {
+  color: #9cbc68;
+  font-weight: 600; }
+
+.footer-social li {
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease; }
+  .footer-social li:hover {
+    color: #9cbc68;
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease;
+    -webkit-filter: drop-shadow(0 0 10px #9cbc68);
+    filter: drop-shadow(0 0 10px #9cbc68); }
 
 #contacts {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  color: #fff; }
 
 .contacts-text {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .block-content i {
   font-size: 30px;
@@ -500,7 +531,8 @@ header,
   font-size: 16px;
   margin-bottom: 5px;
   -webkit-transition: 500ms ease;
-  transition: 500ms ease; }
+  transition: 500ms ease;
+  color: #fff; }
 
 .block-content a:hover {
   color: #9cbc68;
@@ -580,12 +612,6 @@ button {
     transition: 500ms ease;
     color: #000;
     font-weight: 600; }
-
-.skype {
-  background: url(../img/skype.svg) center no-repeat;
-  width: 30px;
-  height: 30px;
-  background-size: 100%; }
 
 .block-phone {
   width: 100%; }
@@ -670,31 +696,20 @@ button {
   justify-content: center;
   z-index: 1; }
 
-footer {
-  padding-bottom: 30px; }
-  footer .content {
-    padding: 30px; }
+.block-input input::-webkit-input-placeholder {
+  color: #000; }
 
-.footer-text .logo {
-  margin: 0;
-  margin-right: 10px; }
+.block-input input::-moz-placeholder {
+  color: #000; }
 
-.footer-text span {
-  color: #9cbc68;
-  font-weight: 600; }
+.block-input input:-ms-input-placeholder {
+  color: #000; }
 
-.footer-social li {
-  padding: 5px;
-  margin: 10px;
-  font-size: 20px;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease; }
-  .footer-social li:hover {
-    color: #9cbc68;
-    -webkit-transition: 500ms ease;
-    transition: 500ms ease;
-    -webkit-filter: drop-shadow(0 0 10px #9cbc68);
-    filter: drop-shadow(0 0 10px #9cbc68); }
+.block-input input::-ms-input-placeholder {
+  color: #000; }
+
+.block-input input::placeholder {
+  color: #000; }
 
 @media screen and (max-width: 1100px) {
   .up {
@@ -926,4 +941,34 @@ footer {
   margin-top: 0; }
 
 #contacts {
-  margin-top: -50px; }
+  margin-top: -70px; }
+
+#form button {
+  color: #fff; }
+
+footer {
+  padding-bottom: 30px;
+  margin-top: -70px; }
+  footer .content {
+    padding: 30px; }
+
+.footer-text .logo {
+  margin: 0;
+  margin-right: 10px; }
+
+.footer-text span {
+  color: #9cbc68;
+  font-weight: 600; }
+
+.footer-social li {
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease; }
+  .footer-social li:hover {
+    color: #9cbc68;
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease;
+    -webkit-filter: drop-shadow(0 0 10px #9cbc68);
+    filter: drop-shadow(0 0 10px #9cbc68); }

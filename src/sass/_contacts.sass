@@ -1,7 +1,10 @@
 #contacts
   margin-bottom: 100px
+  color: #fff
+
 .contacts-text
-  margin-bottom: 30px
+  margin-bottom: 20px
+
 .block-content
   & i
     font-size: 30px
@@ -12,13 +15,16 @@
     font-size: 16px
     margin-bottom: 5px
     transition: 500ms ease
+    color: #fff
   & a:hover
     color: #9cbc68
     transition: 500ms ease
+
 .block-input,
 .block-text
   width: 50%
   padding: 20px
+
 .block-input input,
 #country
   background: transparent
@@ -28,12 +34,13 @@
   transition: 500ms ease
   border-radius: 6px
   padding-left: 10px
-  &
+
 #country
   margin-bottom: 0px
   color: #fff
   height: 36px
   margin-right: 10px
+
 .block-input input,
   margin-top: 10px
   margin-bottom: 10px
@@ -50,6 +57,7 @@ button
   color: #ccc
   font-size: 15px
   font-family: 'Raleway', sans-serif
+
 .block-text textarea
   width: 100%
   min-height: 184px
@@ -62,6 +70,7 @@ button
   border-radius: 6px
   padding: 10px
   box-sizing: border-box
+
 .btn
   padding: 10px 40px
   background: transparent
@@ -76,13 +85,10 @@ button
     transition: 500ms ease
     color: #000
     font-weight: 600
-.skype
-  background: url(../img/skype.svg) center no-repeat
-  width: 30px
-  height: 30px
-  background-size: 100%
+
 .block-phone
   width: 100%
+
 .wrapper
   position: fixed
   content: ''
@@ -92,14 +98,15 @@ button
   z-index: 1000
   top: -1000px
   left: calc(50% - 200px)
-.blur
-   // filter: blur(3px)
+
 .top
   top: calc(50% - 150px)
+
 .wrapper-header
   padding: 5px
   background-color: #9cbc68
   z-index: 2
+
 .close
   position: relative
   height: 30px
@@ -125,16 +132,19 @@ button
       background-color: #fff
       top: calc(50% - 1px)
       transform: rotate(100deg)
+
 .close:hover
   & span
     transition: 500ms ease
     width: 20px
     transform: rotate(-310deg)
+
 .close:hover
   span:before
     width: 20px
     transition: 500ms ease
     transform: rotate(435deg)
+
 .wrapper_text
   background: url(../img/fon.jpeg) center center no-repeat
   background-size: cover
@@ -146,3 +156,8 @@ button
   align-items: center
   justify-content: center
   z-index: 1
+
+  
+.block-input input
+  &::placeholder 
+    color: #000 
