@@ -1,7 +1,7 @@
 <?php
 
-$recepient = "vitaly.ignatenko360@gmail.com";
-$sitename = "mask-qweqwe";
+$recepient = "ekonomkamagazin@yandex.ru";
+$sitename = "маскалицевая.рф";
 
 $name = trim($_POST["user"]);
 $email = trim($_POST["email"]);
